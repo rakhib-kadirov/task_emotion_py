@@ -6,7 +6,3 @@ def clean_text(text: str) -> str:
     text = re.sub(r'[^\w\s]', '', text)   # удаление пунктуации
     text = text.strip()
     return text
-
-
-
-
